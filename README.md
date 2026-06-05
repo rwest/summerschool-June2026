@@ -58,7 +58,7 @@ how to efficiently use modern high-performance computing systems. He's also an A
 [Richard West](https://www.northeastern.edu/comocheng/) is a Professor of Chemical Engineering at Northeastern University. His group develops detailed microkinetic models for complex reacting systems, and develops open-source tools like [Reaction Mechanism Generator](https://rmg.mit.edu/) and [Cantera](https://cantera.org).
 This work is applied to fields including combustion, PFAS remediation, heterogeneous catalysis, and electrochemistry.
 
-[Ty Janoski](https://tylerjanoski.com/about-me/) is a postdoctoral researcher in the Department of Environmental Sciences at Rutgers University. His research focuses on the development of coastal flood models to prepare the New Jersey power grid for climate change. He is also the lead developer of the (ClimKern)[https://github.com/tyfolino/climkern] Python package and data repository.
+[Ty Janoski](https://tylerjanoski.com/about-me/) is a postdoctoral researcher in the Department of Environmental Sciences at Rutgers University. His research focuses on the development of coastal flood models to prepare the New Jersey power grid for climate change. He is also the lead developer of the [ClimKern](https://github.com/tyfolino/climkern) Python package and data repository.
 
 TBD
 

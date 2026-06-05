@@ -42,6 +42,7 @@ Overnight accommodation will be in the [West Village B](https://www.canva.com/de
 
 Each morning and afternoon session will be split up with a break.
 Lunch and dinner will be on your own, but we encourage you to form groups (Zulip is great for this!).
+Folks traveling to Boston will be eligible for per-diem meal reimbursements (based on GSA rates for Boston).
 
 ## Code of Conduct
 

@@ -22,16 +22,16 @@ Overnight accommodation will be in the [West Village B](https://www.canva.com/de
 | 8th, 9-10am  | [Welcome and introductions](https://kyleniemeyer.github.io/research-software-dev-modules/intro-slides) |  | Kyle
 | 8th, 10-10:30am  | [Managing environments](https://softwaredevengresearch.github.io/software-development-research/managing-environment-revealjs.html#/) |  | Kyle
 | 8th, 10:30am-11:15am | [Software design and modularity](https://evamaxfield.github.io/winter-school-lectures/software-design-and-modularity.slides.html#/) | | Richard
-| 8th, 11:15am-12pm | [Structuring Python packages](https://matthewfeickert-talks.github.io/talk-urssi-summer-school-2024/) |  | Ty
+| 8th, 11:15am-12pm | [Structuring Python packages](https://tyfolino.github.io/urssi-summer-2026/python-packaging/) |  | Ty
 | 8th, 12-1:30pm | Lunch | |
 | 8th, 1:30-2:30pm | work time |  | 
-| 8th, 2:30-3:30pm     | [Collaboration with Git/GitHub/Workflows](https://munkm.github.io/2024-winterschool/git-collaboration.slides.html) |  | Ty & Richard
+| 8th, 2:30-3:30pm     | [Collaboration with Git/GitHub/Workflows](https://tyfolino.github.io/urssi-summer-2026/git-collaboration/) |  | Ty & Richard
 | 8th, 3:30-4:15pm | work time |  | 
 | 8th, 4:15-5pm     | Panel discussion on appropriate use of AI tools |  | all
 | 9th, 9-10:30am  | [Testing and continuous integration, linting](https://evamaxfield.github.io/winter-school-lectures/testing-lint-ci.slides.html#/) [repo](https://github.com/evamaxfield/winter-school-lectures) |  | Su
 | 9th, 10:30am-12pm  | work time |  | 
 | 9th, 12-1:30pm | Lunch | |
-| 9th, 1:30-2:30pm | [Peer code review](https://munkm.github.io/2024-winterschool/peer-review.slides.html#/) | | Ty
+| 9th, 1:30-2:30pm | [Peer code review](https://tyfolino.github.io/urssi-summer-2026/peer-review/) | | Ty
 | 9th, 2:30-3:30pm | work time | | 
 | 9th, 3:30-5pm | Panel discussion on industry career paths | | [Kevin Spiekermann](https://www.linkedin.com/in/kspiekermann/), [Mengjie Liu](https://www.linkedin.com/in/liumengjie/), [Xiaorui Dong](https://www.linkedin.com/in/xiaorui-dong/)
 | 10th, 9-10:30am | [Documentation and versioning](https://kyleniemeyer.github.io/research-software-dev-modules/module-documentation/) | | Su
@@ -57,6 +57,8 @@ how to efficiently use modern high-performance computing systems. He's also an A
 
 [Richard West](https://www.northeastern.edu/comocheng/) is a Professor of Chemical Engineering at Northeastern University. His group develops detailed microkinetic models for complex reacting systems, and develops open-source tools like [Reaction Mechanism Generator](https://rmg.mit.edu/) and [Cantera](https://cantera.org).
 This work is applied to fields including combustion, PFAS remediation, heterogeneous catalysis, and electrochemistry.
+
+[Ty Janoski](https://tylerjanoski.com/about-me/) is a postdoctoral researcher in the Department of Environmental Sciences at Rutgers University. His research focuses on the development of coastal flood models to prepare the New Jersey power grid for climate change. He is also the lead developer of the (ClimKern)[https://github.com/tyfolino/climkern] Python package and data repository.
 
 TBD
 

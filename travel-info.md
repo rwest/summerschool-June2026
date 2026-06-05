@@ -13,6 +13,19 @@ It is a [short walk](https://maps.app.goo.gl/wczCthpbH7hgSHo97) to the Behrakis 
 
 The [Logan Express Back Bay bus](https://www.massport.com/logan-airport/getting-to-logan/logan-express/back-bay) runs 7 days a week, every half hour, 6am-10pm between Boston Logan airport and the Stuart St stop; from there, you can walk to campus (0.9 mi, ~20 minutes) or take the Orange Line two stops to the Massachusetts Ave stop.
 
+## Getting to campus from the Amtrak station
+
+Several Amtrak routes stop at Back Bay station, and Massachusetts Ave is one stop away on the Orange Line.
+
+## Parking
+
+If you are driving to Boston, there are a few parking garages available nearby:
+- [Gainsborough Garage - MasParc](https://masparc.com/gainsborough-garage/)
+- [Renaissance Park Garage - MasParc](https://masparc.com/renaissance-park-garage/)
+
+You can also prebook at these or other parking garages via [Spothero.com](https://spothero.com). 
+Either way, keep your receipts and your parking fees will be reimbursed after the school.
+
 ## Special needs
 
 If you have special accessibility needs that would make getting to the hotel or to/from the meeting challenging, please let Kyle Niemeyer or Richard West know ASAP.

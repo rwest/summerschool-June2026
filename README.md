@@ -94,6 +94,14 @@ Please follow the instructions you will receive over email and reach out to Kyle
 
 TBD
 
+## Acknowledgements
+
+Much of the lecture material in this repository — including several of the
+notebooks and the example `rescale` package — is adapted from material created or adapted
+by [Eva Maxfield Brown](https://github.com/evamaxfield) for previous URSSI
+schools ([winter-school-lectures](https://github.com/evamaxfield/winter-school-lectures)).
+
+
 ## Development
 For the code in this repository, you can
 install stuff with:

@@ -60,7 +60,7 @@ This work is applied to fields including combustion, PFAS remediation, heterogen
 
 [Ty Janoski](https://tylerjanoski.com/about-me/) is a postdoctoral researcher in the Department of Environmental Sciences at Rutgers University. His research focuses on the development of coastal flood models to prepare the New Jersey power grid for climate change. He is also the lead developer of the [ClimKern](https://github.com/tyfolino/climkern) Python package and data repository.
 
-TBD
+[Su Sun](https://www.linkedin.com/in/su-sun/) is a postdoctoral scientific software engineer at Northeastern University developing sustainable multi-language interfaces for scientific software, with a focus on [Reaction Mechanism Generator](https://rmg.mit.edu/) and [Cantera](https://cantera.org). His work spans scientific software sustainment, chemical kinetics, electrochemistry, and semiconductor manufacturing. His broader interests include reproducible computational tools and expanding access to open-source scientific software across research and engineering communities.
 
 ## Requirements
 

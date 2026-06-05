@@ -41,6 +41,7 @@ Overnight accommodation will be in the [West Village B](https://www.canva.com/de
 | 10th, 2:30pm-5pm | work time |  |
 
 Each morning and afternoon session will be split up with a break.
+Lunch and dinner will be on your own, but we encourage you to form groups (Zulip is great for this!).
 
 ## Code of Conduct
 

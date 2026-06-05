@@ -21,14 +21,14 @@ Overnight accommodation will be in the [West Village B](https://www.canva.com/de
 |:--|:--|:--|:--|
 | 8th, 9-10am  | [Welcome and introductions](https://kyleniemeyer.github.io/research-software-dev-modules/intro-slides) |  | Kyle
 | 8th, 10-10:30am  | [Managing environments](https://softwaredevengresearch.github.io/software-development-research/managing-environment-revealjs.html#/) |  | Kyle
-| 8th, 10:30am-11:15am | [Software design and modularity](https://evamaxfield.github.io/winter-school-lectures/software-design-and-modularity.slides.html#/) | | Richard
+| 8th, 10:30am-11:15am | [Software design and modularity](https://si2-urssi.github.io/summerschool-June2026/software-design-and-modularity.slides.html#/) | | Richard
 | 8th, 11:15am-12pm | [Structuring Python packages](https://tyfolino.github.io/urssi-summer-2026/python-packaging/) |  | Ty
 | 8th, 12-1:30pm | Lunch | |
 | 8th, 1:30-2:30pm | work time |  | 
 | 8th, 2:30-3:30pm     | [Collaboration with Git/GitHub/Workflows](https://tyfolino.github.io/urssi-summer-2026/git-collaboration/) |  | Ty & Richard
 | 8th, 3:30-4:15pm | work time |  | 
 | 8th, 4:15-5pm     | Panel discussion on appropriate use of AI tools |  | all
-| 9th, 9-10:30am  | [Testing and continuous integration, linting](https://evamaxfield.github.io/winter-school-lectures/testing-lint-ci.slides.html#/) [repo](https://github.com/evamaxfield/winter-school-lectures) |  | Su
+| 9th, 9-10:30am  | [Testing and continuous integration, linting](https://si2-urssi.github.io/summerschool-June2026/testing-lint-ci.slides.html#/) |  | Su
 | 9th, 10:30am-12pm  | work time |  | 
 | 9th, 12-1:30pm | Lunch | |
 | 9th, 1:30-2:30pm | [Peer code review](https://tyfolino.github.io/urssi-summer-2026/peer-review/) | | Ty

@@ -1,0 +1,94 @@
+name: Publish Slides
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "notebooks/**"
+      - ".github/workflows/publish-slides.yml"
+  workflow_dispatch:
+
+# Allow this workflow to deploy to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment, cancelling older in-progress runs
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install Dependencies
+      run: |
+        # `.` brings in the project (numpy); the rest are needed to
+        # execute and convert the notebooks to reveal.js slides.
+        pip install . pandas nbconvert ipykernel
+
+    - name: Build slides
+      run: |
+        jupyter nbconvert --to slides notebooks/*.ipynb \
+          --output-dir=_site --execute
+
+    - name: Generate index page
+      run: |
+        python - <<'PY'
+        from pathlib import Path
+
+        site = Path("_site")
+        decks = sorted(site.glob("*.slides.html"))
+
+        items = "\n".join(
+            f'      <li><a href="{d.name}">{d.stem.removesuffix(".slides")}</a></li>'
+            for d in decks
+        )
+
+        site.joinpath("index.html").write_text(
+            "<!doctype html>\n"
+            '<html lang="en">\n'
+            "<head>\n"
+            '  <meta charset="utf-8">\n'
+            '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            "  <title>URSSI Summer School 2026 — Slides</title>\n"
+            "</head>\n"
+            "<body>\n"
+            "  <h1>URSSI Summer School June 2026 — Slides</h1>\n"
+            "  <ul>\n"
+            f"{items}\n"
+            "  </ul>\n"
+            "</body>\n"
+            "</html>\n"
+        )
+        print(f"Indexed {len(decks)} slide deck(s).")
+        PY
+
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

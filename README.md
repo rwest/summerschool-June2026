@@ -92,3 +92,17 @@ Please follow the instructions you will receive over email and reach out to Kyle
 ## Feedback 
 
 TBD
+
+## Development
+For the code in this repository, you can
+install stuff with:
+
+`pip install -e '.[lint,test,dev]`
+
+run tests with:
+
+`pytest tests/`
+
+run linting + formatting + etc with:
+
+`pre-commit run --all-files`

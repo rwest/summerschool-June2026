@@ -57,9 +57,13 @@ jobs:
       run: |
         pip install pre-commit
 
+    # Run the full lint suite and print every failure to the log, but do not
+    # fail the job. (We intentionally ship messy_code.py, which fails on
+    # purpose for the lecture demos.)
     - name: Lint
+      continue-on-error: true
       run: |
-        pre-commit run --all-files
+        pre-commit run --all-files --show-diff-on-failure
 
   # Conceptual release job — publishes to PyPI on a version tag.
   # Guarded with `if: false` so it never runs. Remove the guard and set up

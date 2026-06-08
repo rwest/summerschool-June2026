@@ -19,12 +19,12 @@ Overnight accommodation will be in the [West Village B](https://www.canva.com/de
 
 | Time | Topic  | Resources  | Instructor
 |:--|:--|:--|:--|
-| 8th, 9-10am  | [Welcome and introductions](https://kyleniemeyer.github.io/research-software-dev-modules/intro-slides) |  | Kyle
-| 8th, 10-10:30am  | [Managing environments](https://softwaredevengresearch.github.io/software-development-research/managing-environment-revealjs.html#/) |  | Kyle
-| 8th, 10:30am-11:15am | [Software design and modularity](https://si2-urssi.github.io/summerschool-June2026/software-design-and-modularity.slides.html#/) | | Richard
-| 8th, 11:15am-12pm | [Structuring Python packages](https://tyfolino.github.io/urssi-summer-2026/python-packaging/) |  | Ty
-| 8th, 12-1:30pm | Lunch | |
-| 8th, 1:30-2:30pm | work time |  | 
+| 8th, 9-10:20am  | [Welcome and introductions](https://kyleniemeyer.github.io/research-software-dev-modules/intro-slides) |  | Kyle
+| 8th, 10:20-11:20am  | [Managing environments](https://softwaredevengresearch.github.io/software-development-research/managing-environment-revealjs.html#/) |  | Kyle
+| 8th, 11:25am-12:05pm | [Software design and modularity](https://si2-urssi.github.io/summerschool-June2026/software-design-and-modularity.slides.html#/) | | Richard
+| 8th, 12:05-1:30pm | Lunch | |
+|| 8th, 1:30pm-2:15pm | [Structuring Python packages](https://tyfolino.github.io/urssi-summer-2026/python-packaging/) |  | Ty
+ 8th, 2:15-2:30pm | work time |  | 
 | 8th, 2:30-3:30pm     | [Collaboration with Git/GitHub/Workflows](https://tyfolino.github.io/urssi-summer-2026/git-collaboration/) |  | Ty & Richard
 | 8th, 3:30-4:15pm | work time |  | 
 | 8th, 4:15-5pm     | Panel discussion on appropriate use of AI tools |  | all

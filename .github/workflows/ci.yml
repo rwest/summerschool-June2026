@@ -57,6 +57,37 @@ jobs:
       run: |
         pip install pre-commit
 
+    # Run the full lint suite and print every failure to the log, but do not
+    # fail the job. (We intentionally ship messy_code.py, which fails on
+    # purpose for the lecture demos.)
     - name: Lint
+      continue-on-error: true
       run: |
-        pre-commit run --all-files
+        pre-commit run --all-files --show-diff-on-failure
+
+  # Conceptual release job — publishes to PyPI on a version tag.
+  # Guarded with `if: false` so it never runs. Remove the guard and set up
+  # PyPI Trusted Publishing to enable.
+  release:
+    if: false
+    needs: [test, lint]
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write  # required for PyPI Trusted Publishing (OIDC)
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Build distribution
+      run: |
+        pip install build
+        python -m build
+
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1

@@ -23,4 +23,6 @@ def repeat(text: str, times: int) -> str:
 
 
 # mypy flags this BEFORE the program ever runs:
-message: str = repeat("hi", "three")  # "times" expects int, got str
+message: str = repeat("hi", "four")  # "times" expects int, got str
+message2: str = repeat("hello", 3.1415
+                       )

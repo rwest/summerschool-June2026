@@ -6,6 +6,8 @@ build-backend = "hatchling.build"
 name = "rescale"
 version = "0.1.0"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = [
     "numpy>=1,<2",
 ]

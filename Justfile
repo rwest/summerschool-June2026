@@ -19,7 +19,7 @@ clean:
 
 # install with all deps
 install:
-    pip install -e .[test,dev]
+    pip install -e .[test,dev,docs]
 
 # test
 test:
@@ -28,6 +28,21 @@ test:
 # lint, format, and check all files
 lint:
 	pre-commit run --all-files
+
+###############################################################################
+# Documentation
+
+# store docs dirs
+DOCS_SOURCE := justfile_directory() + "/docs/source"
+DOCS_BUILD := justfile_directory() + "/docs/build"
+
+# build HTML documentation from docstrings + .rst pages
+docs:
+	sphinx-build -b html {{DOCS_SOURCE}} {{DOCS_BUILD}}
+
+# remove built documentation
+docs-clean:
+	rm -fr {{DOCS_BUILD}} {{DOCS_SOURCE}}/generated
 
 ###############################################################################
 # Jupyter Slide Build

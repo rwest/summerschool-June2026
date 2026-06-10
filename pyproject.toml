@@ -6,6 +6,8 @@ build-backend = "hatchling.build"
 name = "rescale"
 version = "0.1.0"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = [
     "numpy>=1,<2",
 ]
@@ -19,6 +21,11 @@ dev = [
     "ipython",
     "jupyterlab",
     "pre-commit>=2.20.0",
+]
+docs = [
+    "sphinx",
+    "myst-nb",  # Markdown + notebook pages; pulls in myst-parser
+    # napoleon (NumPy/Google docstring support) ships with sphinx core
 ]
 
 # tools

@@ -20,6 +20,11 @@ dev = [
     "jupyterlab",
     "pre-commit>=2.20.0",
 ]
+docs = [
+    "sphinx",
+    "myst-nb",  # Markdown + notebook pages; pulls in myst-parser
+    # napoleon (NumPy/Google docstring support) ships with sphinx core
+]
 
 # tools
 [tool.black]
